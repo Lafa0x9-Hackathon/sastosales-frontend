@@ -1,3 +1,4 @@
+import Button from "../Button";
 import { cities } from "./../../utils/constants";
 import { Add } from "./../Icons";
 
@@ -23,13 +24,10 @@ const Cities = () => {
         </li>
       </ul>
 
-      <button
-        type="button"
-        className="flex items-center gap-2 font-roboto text-[#F8F8F8] py-3 px-7 bg-[#816FB5] rounded-[4px] md:text-[15px] text-[14px] font-medium"
-      >
+      <Button type="button">
         <Add className="w-5 h-5 fill-[#F8F8F8]" />
         <span>Add Listing</span>
-      </button>
+      </Button>
     </div>
   );
 };

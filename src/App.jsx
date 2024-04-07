@@ -1,11 +1,11 @@
+import Place from "./components/Place";
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-red-600">
-        sasto sales
-    </div>
+    <main className="h-full">
+      <Place />
+    </main>
   );
+};
 
-}
-
-export default App
+export default App;

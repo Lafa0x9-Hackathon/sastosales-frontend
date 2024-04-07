@@ -1,0 +1,16 @@
+export const cities = [
+  "kathmandu",
+  "dharan",
+  "mahendranagar",
+  "pokhara",
+  "bharatpur",
+  "hetauda",
+  "patan",
+  "janakpur",
+  "madhyapur thimi",
+  "biratnagar",
+  "dhangadhi",
+  "triyuga",
+  "birgunj",
+  "butwal",
+];

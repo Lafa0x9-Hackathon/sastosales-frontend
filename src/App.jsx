@@ -1,9 +1,8 @@
+import Navbar from "./components/navBar/navbar";
 
 function App() {
   return (
-    <div>
-        sasto sales
-    </div>
+    <Navbar/>
   );
 
 }

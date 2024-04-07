@@ -1,0 +1,167 @@
+.nav-bar-container{
+    background: linear-gradient(95.05deg, #FFE2E2 6.01%, #D5C7FF 100.09%);
+    display: flex;
+    justify-content: space-between;
+    min-height: 85px;
+    align-items: center;
+    width: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.sasto-sales-logo{
+    margin-left: 10px;
+    height: 68px;
+    width: 81px;
+}
+
+.left-side-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.filter-contaier{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 48px;
+    width: 125px;
+    border: 1px solid rgba(255, 221, 209, 1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.filter-icon{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+.filter-contaier p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.filter-number{
+    display: flex;
+    height: 24px;
+    width: 20px;
+    background-color: rgba(255, 238, 232, 1);
+    color: rgba(255, 102, 54, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-container{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 413px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(233, 234, 240, 1);
+    border-radius: 8px;
+}
+
+.search-icon{
+    margin: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.search-container input{
+    font-family: "Inter", sans-serif;
+    height: 90%;
+    width: 90%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border: none;
+    cursor: text;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.right-side-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.add-product-container{
+    height: 48px;
+    width: 200px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(231, 222, 255, 1);
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 1);
+}
+
+.add-product-container p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.add-product-container img{
+    height: 16px;
+    width: 16px;
+}
+
+.cart-icon{
+    height: 24px;
+    width: 24px;
+}
+
+
+.login-button,.signin-button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 113px;
+    height: 48px;
+    border: 1px solid rgba(233, 234, 240, 1);
+    border-radius: 8px;
+    align-items: center;
+}
+
+.login-button{
+    background-color: rgba(129, 111, 181, 1);
+}
+
+.signin-button{
+    background-color: rgba(68, 246, 86, 1);
+    margin-right: 10px;
+}
+
+.login-button p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.login-button img{
+    height: 16px;
+    width: 16px;
+}
+.signin-button p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.signin-button img{
+    height: 16px;
+    width: 16px;
+}

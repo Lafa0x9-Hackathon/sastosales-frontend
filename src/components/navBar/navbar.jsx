@@ -26,7 +26,7 @@ function Navbar() {
                     <p>Add My Product</p>
                     <img src={add_icon} alt="add0-icon" />
                 </div>
-                <img className='cart-icon' src={cart_icon} alt="" />
+                <img className='cart-icon' src={cart_icon} alt="cart_icon" />
                 <div className="login-button">
                     <p>Login</p>
                     <img src={down_arrow_icon} alt="" />

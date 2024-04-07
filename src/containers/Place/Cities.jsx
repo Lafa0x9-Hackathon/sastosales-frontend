@@ -1,6 +1,6 @@
-import Button from "../Button";
-import { cities } from "./../../utils/constants";
-import { Add } from "./../Icons";
+import Button from "../../components/Button";
+import { cities } from "../../utils/constants";
+import { Add } from "../../components/Icons";
 
 const Cities = () => {
   return (

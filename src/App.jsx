@@ -1,5 +1,5 @@
-import Place from "./components/Place";
-import Count from "./components/Count";
+import Place from "./containers/Place";
+import Count from "./containers/Count";
 
 const App = () => {
   return (

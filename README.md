@@ -1,8 +1,10 @@
-# React + Vite
+# sastosales_Frontend
+<!-- TODO: Link should open in a new tab but no solution found -->
+# Live link: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# UI/UX Development Link:
+https://www.figma.com/file/djZfUPShfdB2I7XS8OCeHE/Sastosales---Sprint-v1---dev.sastosales.com.np?type=design&node-id=31-81&mode=design&t=7RXKPNIIXQUMJwrJ-0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+This is powerfull modulable app and has a fully responsive design. Built with Laravel and Bootstrap. It is packed with lots of features.

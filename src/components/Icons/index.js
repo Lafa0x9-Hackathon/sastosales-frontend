@@ -3,3 +3,8 @@ export { Add } from "./Add";
 export { Map } from "./Map";
 export { Map2 } from "./Map2";
 export { Users } from "./Users";
+export { Timer } from "./Timer";
+export { Star } from "./Star";
+export { Cart } from "./Cart";
+export { ArrowRight } from "./ArrowRight";
+export { ArrowLeft} from "./ArrowLeft";

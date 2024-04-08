@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto&display=swap");
+
+.wrapper{
+    width: 90%;
+    margin-inline: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #F1F1F1;
+    margin-inline: auto;
+}
+
+
+.categoryContainer {
+  
+  display: flex;
+  background-color: #ebebff;
+  padding: 20px;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  min-width: 318px;
+}
+
+.categorySubContainer-1 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 64px;
+  height: 64px;
+}
+
+.categorySubContainer-2 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.categorySubContainer-2 h2 {
+  line-height: 22px;
+  font-size: 16px;
+  color: #1d2026;
+}
+
+.categorySubContainer-2 p {
+  font-size: 14px;
+  color: #6e7485;
+}

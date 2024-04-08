@@ -1,9 +1,14 @@
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Categories from "./components/categories/Categories";
 
 function App() {
   return (
-    <div>
-        sasto sales
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Categories/>}/>
+    </Routes>
+    
+    </BrowserRouter>
   );
 
 }

@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto&display=swap");
+
+.categoriesContainer{
+/* position: absolute; */
+    /* width: 100vw; */
+    /* height: 371px; */
+    /* top: 926px; */
+    /* left: 92px; */
+    padding-bottom:20px ;
+    background-color: #FFFFFF;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    
+}
+
+.categoriesSubContainer-1{
+    justify-content:space-between;
+    /* width: full; */
+    padding: 14px 44px 14px 30px;
+    border-radius: 18px 18px 0 0;
+    display: flex;
+    
+}
+
+
+.categoriesSubContainer-1 h1{
+   font-size: 16.19px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+   
+   
+}
+
+.categoriesSubContainer-1 button{
+    font-size: 13.09px;
+    ;
+    outline: none;
+    border: none;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    color: #9A9A9A;
+    background-color: white;
+}
+
+.categoriesSubContainer-2{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    height: full; 
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 4px;
+      width: full;
+     
+    
+}
+

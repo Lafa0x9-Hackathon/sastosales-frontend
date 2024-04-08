@@ -1,8 +1,9 @@
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div>
-        sasto sales
+        <Footer/>
     </div>
   );
 

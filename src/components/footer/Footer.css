@@ -1,3 +1,91 @@
-h1{
-    color: brown;
+
+:root{
+	--font:font-family: "Roboto"
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing for better layout handling */
+}
+
+.footer {
+    width: 1440px;
+    height: 240px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.footer-container {
+    width: 100%; /* Adjust to 100% to ensure it respects parent's width */
+    height: 100%; /* Adjust to 100% to ensure it respects parent's height */
+    background: #DC8484;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:70%; /* Adjust width to fit content within the container */
+    /* padding: 20px;  */
+	position: relative; /* Add relative positioning */
+    left: 230px; /* Position the container 230px from the left */
+	
+}
+
+.sub-footer-links {
+    margin: 10px; /* Adjust margin for spacing */
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-footer-links h4 {
+    margin-top: 10px; /* Adjust margin for spacing */
+	font-family: var(--font);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px; /* Adjust margin for spacing */
+}
+
+.sub-footer-links a {
+    text-decoration: none;
+}
+
+.sub-footer-links p {
+	font-family: var(--font);
+    color: #333333;
+    font-size: 12px;
+    margin: 5px 0; /* Adjust margin for spacing */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-below {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    width: 100%; /* Adjust width to fill the container */
+}
+
+.footer-below-copyright p {
+	font-family: var(--font);
+    font-size: 11px;
+    line-height: 16.5px;
+    color: #333333;
+    margin-top: 10px; /* Adjust margin for spacing */
+}
+
+.footer-below-copyright span {
+    color: #4682B4;
+}
+
+hr {
+	position: relative;
+	left: 20px;
+    width:100%; /* Adjust width to fit within the container */
+    border: 1px solid #0D0C0C1A;
 }

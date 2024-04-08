@@ -7,7 +7,6 @@ import Pagination from "../../components/Pagination";
 
 const Products = () => {
   const [currentPage, setCurrentPage] = useState(0);
-  console.log(currentPage);
   return (
     <section className="py-10 px-2 font-roboto">
       <Wrapper className="rounded-[16px] overflow-hidden border-[1.5px] border-[#C8BBBB]">
@@ -31,8 +30,8 @@ const Products = () => {
               "linear-gradient(95.05deg, #FFE2E2 6.01%, #D5C7FF 100.09%)",
           }}
         >
-          <div className="grid grid-cols-[repeat(auto-fill,minmax(253px,1fr))] py-4 px-8 bg-red-100 gap-5 ">
-            {DUMMPY_PRODUCTS.map((product) => {
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(253px,1fr))] py-4 px-8  gap-5 ">
+            {DUMMPY_PRODUCTS.slice(0, 8).map((product) => {
               return (
                 <ProductCard
                   key={uuidv4()}

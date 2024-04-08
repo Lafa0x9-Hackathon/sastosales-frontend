@@ -1,15 +1,20 @@
-import Place from "./containers/Place";
-import Count from "./containers/Count";
-import Products from "./containers/Products";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
+  },
+]);
 
 const App = () => {
-  return (
-    <main className="h-full">
-      <Place />
-      <Products />
-      <Count />
-    </main>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;

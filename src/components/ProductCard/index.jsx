@@ -1,22 +1,20 @@
 import Button from "./../Button";
-import { Cart, Location, Timer } from "./../Icons";
-import { Star } from "./../Icons";
+import { Camera, Cart, Location, Timer, Star } from "./../Icons";
 
-const ProductCard = ({
-  title, date, label, address ,rating, price, image
-}) => {
+const ProductCard = ({ title, date, label, address, rating, price, image }) => {
   return (
     <div className="rounded-[16px] overflow-hidden font-roboto">
-      <div className="w-full h-[180px]">
-        <img
-          src={image}
-          alt="bike"
-          className="h-full w-full object-top"
-        />
+      <div className="w-full h-[180px] relative">
+        <img src={image} alt="bike" className="h-full w-full object-top" />
+
+        <div className="absolute top-4 right-4 flex items-center gap-1 bg-[rgba(204,204,204,0.85)] p-1 rounded-md ">
+          <Camera className="w-4 h-4" />
+          <span className="text-[12px]">1</span>
+        </div>
       </div>
       <div className="flex flex-col gap-1 py-3 px-4 bg-[#E7E4E4]">
         <p className="text-[14px] font-semibold text-[##383838] leading-normal">
-         {title}
+          {title}
         </p>
         <div className="flex items-center justify-between">
           <div className="text-xs text-[#9A9A9A] flex gap-1 items-center">

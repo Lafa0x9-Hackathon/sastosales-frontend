@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(95.05deg, #FFE2E2 6.01%, #D5C7FF 100.09%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.card-item {
+    margin: 10px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #E7E4E4;
+    ;
+    position: relative;
+
+}
+
+.image-container {
+    position: relative;
+
+    margin-bottom: 20px;
+    border-radius: 12px 12px 0 0;
+
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+.details {
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.category {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: Fixed (1,258px)px;
+height: Hug (1,151px)px;
+top: 155px;
+left: 95px;
+gap: 24px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+    
+    
+   
+
+}
+
+.location {
+    display: flex;
+    color: #9B9B9B;
+    margin: 10px;
+}
+
+.realoc {
+    margin-left: 50px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #816FB5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+.btn {
+    text-align: center;
+    margin: 20px;
+}
+
+.time {
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #9A9A9A;
+
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.automobile {
+
+    background-color: #EBEBFF;
+    margin: 32px;
+    display: inline;
+}

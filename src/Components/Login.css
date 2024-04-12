@@ -1,0 +1,106 @@
+
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+span{
+    color: gray;
+}
+hr{
+    border: 1px solid gray;
+    margin-top: 24px;
+}
+
+.container{
+    margin-block: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 178px;
+    align-items: center;
+}
+.text-container{
+    max-width: 376px;
+    height: 441px;
+}
+.header{
+    background:linear-gradient(to right,rgb(247, 248, 240),rgb(180, 164, 247)); 
+    height: 63px;
+    border-top-right-radius: 8px;
+    padding:2px;
+    text-align: center;
+}
+.header h2{
+    font-size: 18px;
+    font-family: 'Inter';
+}
+.form-container{
+    padding: 13px;
+}
+
+.form-container label{
+    display: grid;
+    font-size: 14px;
+    padding-left: 8px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+.form-label{
+    display: grid;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+.form-container input{
+     height: 42px;
+     max-width: 350px;
+     border-radius: 8px;
+     outline: none;
+     border:2px solid #646464;
+     padding-left: 8px;
+}
+
+.PhoneInput{
+    max-width:360px;
+}
+.form-container input[type="checkbox"] {
+    width: 20px;
+    cursor: pointer;
+}
+.check-remeber{
+    display: flex;
+    align-items: center;
+}
+.bottom-container{
+    display: flex;
+    gap: 22px;
+}
+.log-in-btn{
+    background-color: #816FB5;
+    width: 350px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.last-text{
+    text-align: center;
+    margin-top: 28px;
+}
+.img-section{
+    max-width: 669px;
+    max-height: 550px;
+}
+@media(0<width<500px){
+    .img-section{
+        display: none;
+    }
+}
+
+

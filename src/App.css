@@ -1,8 +1,13 @@
+
+
 body {
+    
     background: linear-gradient(95.05deg, #FFE2E2 6.01%, #D5C7FF 100.09%);
+    font-family: Roboto;
+  
 }
 
-.container {
+.cardcollection {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -53,33 +58,53 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: Fixed (1,258px)px;
-height: Hug (1,151px)px;
-top: 155px;
-left: 95px;
-gap: 24px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
+    margin: 0 10px 10px;
+}
 
-    
-    
+.star {
+    color: orange;
+    font-size: larger;
+
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color:#CCCCCC;
    
+    border-radius: 4px;
+    color: black;
+     padding: 2px; 
+     margin: 7px;
+     
+   
+}
+
+
+.ads {
+    background-color: #816FB5;
+    margin: 20px;
+    border-radius: 10px;
+    height: 200px;
+
 
 }
 
 .location {
     display: flex;
     color: #9B9B9B;
-    margin: 10px;
+    margin: 8px;
 }
 
 .realoc {
     margin-left: 50px;
 }
 
-.rating {
+.seller-rating {
     font-size: 14px;
     color: #9B9B9B;
+    margin: 5px;
+
 }
 
 .price {
@@ -101,11 +126,11 @@ opacity: 0px;
 
 .btn {
     text-align: center;
-    margin: 20px;
+    margin-bottom: 15px;
 }
 
 .time {
-
+    
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -127,6 +152,10 @@ opacity: 0px;
 .automobile {
 
     background-color: #EBEBFF;
-    margin: 32px;
+    margin: 22px;
     display: inline;
+}
+.icon{
+    color: black;
+    margin-left: 2px;
 }

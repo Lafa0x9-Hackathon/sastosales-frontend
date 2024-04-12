@@ -18,11 +18,11 @@ const Login = () => {
             <form action="#" className="form-container">
               <div className="form-label">
                 <label htmlFor="number">Phone Number</label>
-                <PhoneInput
-                  placeholder="Phone number"
-                  value={value}
-                  onChange={setValue} 
-                />
+                  <PhoneInput
+                    placeholder="Phone number"
+                    value={value}
+                    onChange={setValue}
+                  />
               </div>
 
               <div className="form-label">
@@ -49,7 +49,9 @@ const Login = () => {
               <button type="submit" className="log-in-btn">
                 Log In
               </button>
-              <p className="last-text">Don't Have An Account?Log In</p>
+              <p className="last-text">
+                Don't Have An Account?<a href="#">Log In</a>
+              </p>
             </form>
           </div>
         </section>

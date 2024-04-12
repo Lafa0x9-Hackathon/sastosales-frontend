@@ -97,7 +97,7 @@ hr{
     max-width: 669px;
     max-height: 550px;
 }
-@media(0<width<500px){
+@media(0<width<769px){
     .img-section{
         display: none;
     }

@@ -28,7 +28,7 @@ hr{
     height: 441px;
 }
 .header{
-    background:linear-gradient(to right,rgb(247, 248, 240),rgb(180, 164, 247)); 
+    background:linear-gradient(to right,#FFF4E2,#D5C7FF); 
     height: 63px;
     border-top-right-radius: 8px;
     padding:2px;

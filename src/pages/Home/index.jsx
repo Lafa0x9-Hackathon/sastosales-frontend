@@ -1,6 +1,6 @@
-import Place from "../../containers/Place";
-import Count from "../../containers/Count";
-import Products from "../../containers/Products";
+import Count from "./Count";
+import Place from "./Place";
+import Products from "./Products";
 
 const Home = () => {
   return (

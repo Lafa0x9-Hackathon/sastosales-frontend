@@ -1,7 +1,7 @@
 
-import Button from "../../components/Button";
-import Wrapper from "../../components/ContainerWrapper";
-import { Map, Users, Map2 } from "../../components/Icons";
+import Button from "../../../components/Button";
+import Wrapper from "../../../components/ContainerWrapper";
+import { Map, Users, Map2 } from "../../../components/Icons";
 
 const Item = ({ label, icon: Icon, value }) => {
   return (

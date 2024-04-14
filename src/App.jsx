@@ -1,11 +1,11 @@
-
+import Payment from "./Components/ProductPayemt/payment";
 function App() {
   return (
     <div>
-        sasto sales
+      {/* sasto sales */}
+      <Payment />
     </div>
   );
-
 }
 
-export default App
+export default App;

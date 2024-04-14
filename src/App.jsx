@@ -1,11 +1,12 @@
+import React from "react";
+import BasicProductDetails from "./productAdded/ProductDetailCart";
 
-function App() {
+const App = () => {
   return (
-    <div>
-        sasto sales
-    </div>
+    <>
+      <BasicProductDetails />
+    </>
   );
+};
 
-}
-
-export default App
+export default App;

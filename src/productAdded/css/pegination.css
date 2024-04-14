@@ -1,0 +1,28 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  background-color: #816fb5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media (max-width: 311px) {
+  .buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}

@@ -1,9 +1,11 @@
 import Login from "./Components/Login";
+import ProductAdded from "./Components/ProductAdded";
 
 function App() {
   return (
     <div>
-       <Login/>
+       {/* <Login/>   login page */}
+       <ProductAdded/> 
     </div>
   );
 

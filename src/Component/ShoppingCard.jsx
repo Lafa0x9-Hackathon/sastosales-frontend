@@ -23,9 +23,17 @@ const ShoppingCartData={
 
 export const ShoppingCard = () => {
   return (
-    <>
+    <> 
       <h2>Shopping Cart</h2>
       <div className="shopping-cart">
+
+{/* Triangle shape */}
+<div className="triangle"></div>
+ {/* Cart icon */}
+          <div className="cart-icon">
+          <img src={cart} alt="Cart" />
+          </div>
+
         <p className="paragraph">Bullet Bike - 350 (32 lot)</p>
           
           

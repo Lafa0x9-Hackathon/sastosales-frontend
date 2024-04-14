@@ -1,0 +1,115 @@
+
+
+figure{
+    position: absolute ;
+    left: 7rem;
+    top: 2rem;
+}
+
+.ProductAdded-container{
+    max-width: 1090px;
+    max-height: 483px;
+    margin:50px auto ;
+    background-color: #F1F1F1;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
+    position: relative;
+    
+}
+.review-header{
+    background:linear-gradient(to right,#FFE2E2,#D5C7FF);
+    max-height: 48px;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: left;
+   padding:15px;
+    border-radius: 8px;
+}
+.sections-container{
+    background-color: white;
+    max-width: 1048px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 8px;
+    padding-left: 8px;
+    display: grid;
+}
+.sections-container textarea{
+    max-height: 178px;
+    width: 300px;
+    font-family: Inter;
+    line-height: 30px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+.sections-container label{
+    font-size: 12px; 
+    font-weight: 600;
+}
+.sections-container span{
+    color: red;
+}
+
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.second-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.sections-container select{
+    width: 242px;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-inline: 8px;
+}
+
+.third-section{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.productadded-btn{
+    display: flex;
+    justify-content:space-between;
+    margin-inline: 15rem;
+    z-index: 999;
+}
+.productadded-btn button{
+   min-width: 151px;
+   height: 42px;
+   border-radius: 8px;
+   background-color: #816FB5;
+   border: none;
+   outline: none;
+   font-size: 14px;
+   font-weight: 700;
+   cursor: pointer;
+}
+@media(0<width<1024px){
+    .sections-container{
+        display: grid;
+        justify-content: center;
+    }
+    .first-section{
+        display: flex;
+        justify-content: center;
+    }
+    .second-section{
+        display: flex;
+        justify-content: center;
+    }
+    .third-section{
+        display: flex;
+        justify-content: center;
+    }
+    .sections-container textarea{
+        width: 250px;
+    }
+}

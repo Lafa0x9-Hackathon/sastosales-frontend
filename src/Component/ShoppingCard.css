@@ -1,0 +1,184 @@
+
+h2{
+  padding: 10px;
+    width: 400px;
+    margin: auto;
+    color: #999
+    
+}
+.shopping-cart {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 5%;
+  
+    
+  }
+  .paragraph{
+text-align: left;
+font-weight: 1000;
+margin-bottom: 2px;
+ 
+  }
+  
+  
+  .figure {
+    margin-bottom: 5px;
+    display:flex;
+    align-items: center;
+    color: #999;
+    margin-top:0px
+   
+  }
+  .figure img {
+    width: 100px;  
+    height: auto;  
+    margin-right: 10px; 
+    margin-bottom: -35px;
+    
+  }
+     .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px
+     
+  } 
+
+ 
+  .profile img {
+    width: 50px;  
+    height: auto; 
+     
+ 
+  }
+
+  .profile p {
+     margin: 0px;
+     color: #999;
+     display: flex;
+     justify-content: center;
+     font-size: 1rem;
+    
+  }
+  .name p{
+    
+    margin-left: 5%;
+    margin-top: -10px;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    }
+
+  .options p { 
+    margin-bottom: 0;   
+  }
+  .options p i {
+    margin-right: 5px; 
+  }
+
+.options img {
+  width: 20px;
+  height: 20px;
+}
+
+  .chat {
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between; 
+   }
+
+  .chat button img {
+    width: 20px;  
+    height: auto;  
+    margin-left: 5px;  
+   }
+
+ 
+  .chat button {
+    display: flex;  
+    align-items: center;  
+    background-color: rgb(145, 48, 235);
+    color: white;  
+    border: none;  
+    padding: 5px 10px;  
+    cursor: pointer; 
+   }
+   
+   .category button{
+   font-size: medium;
+   background-color: rgb(225, 212, 237);
+   border: none;
+   margin-left:120px;
+   margin-bottom: 5px;
+
+   
+
+   
+   }
+
+ .name p{
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+ }
+    
+   .review p{ 
+    margin-bottom: 0; 
+    display:flex;
+    justify-content: end;
+   }
+ 
+     .line{
+      width: 97%;  
+        margin-bottom: 5px;
+        padding: 5px;
+        border: 1px solid #000; 
+   
+     }
+
+     
+   .buy button{  
+        margin-bottom: 10px;
+        padding: 4px;
+        width: 100%;
+       background-color: rgb(145, 48, 235);
+       color: white;
+      font-weight: 600;
+      cursor: pointer; 
+   }
+   .product  button{
+   
+        margin-bottom: 5px;
+        padding: 5px;
+        width: 100%;
+       background-color: rgb(225, 227, 213);
+       color: blue;
+       font-weight: 600;
+       cursor: pointer; 
+       
+      
+      
+   }
+   @media screen and (max-width: 600px) {
+    .shopping-cart {
+      width: 90%;
+    }
+  
+    .name p {
+      margin-left: 5px;
+    }
+  
+    .review p  {
+      /* margin-left: 5px; */
+      margin-left: auto;
+      margin-right: 0px;
+    }
+    .profile img {
+      margin-left: 5px;
+    }  
+  }

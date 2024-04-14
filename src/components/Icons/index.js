@@ -9,3 +9,5 @@ export { Cart } from "./Cart";
 export { ArrowRight } from "./ArrowRight";
 export { ArrowLeft} from "./ArrowLeft";
 export { Camera} from "./Camera";
+export { Tick} from "./Tick";
+export { Search} from "./Search";

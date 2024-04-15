@@ -11,3 +11,6 @@ export { ArrowLeft} from "./ArrowLeft";
 export { Camera} from "./Camera";
 export { Tick} from "./Tick";
 export { Search} from "./Search";
+export {Check} from './Check'
+export {ChevronDown} from './ChevronDown'
+export {ChevronUp} from './ChevronUp'

@@ -98,6 +98,7 @@
 }
 
 .add-product-container{
+    position: relative;
     height: 48px;
     width: 200px;
     align-items: center;
@@ -107,6 +108,7 @@
     justify-content: space-evenly;
     background: rgba(255, 255, 255, 1);
     cursor: pointer;
+    overflow: visible;
 }
 
 .add-product-container p{

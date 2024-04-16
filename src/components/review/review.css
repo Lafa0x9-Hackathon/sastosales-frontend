@@ -129,6 +129,10 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
+
+*{
+   box-sizing: border-box;
+}
 body {
    font-family: "Inter", sans-serif;
    color: #1D2026;

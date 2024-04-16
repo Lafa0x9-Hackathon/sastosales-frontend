@@ -1,9 +1,8 @@
-import Payment from "./Components/ProductPayemt/payment";
+import AdsBy from "./Components/Owner/AdsBy";
 function App() {
   return (
     <div>
-      {/* sasto sales */}
-      <Payment />
+      <AdsBy />
     </div>
   );
 }

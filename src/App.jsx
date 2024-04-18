@@ -1,8 +1,9 @@
+import { Suggestions } from "./Component/Suggestions";
 
 function App() {
   return (
     <div>
-        sasto sales
+      <Suggestions />
     </div>
   );
 

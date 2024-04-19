@@ -1,8 +1,9 @@
-
+import Message from "./components/messageBox/message.jsx"
 function App() {
   return (
     <div>
-        sasto sales
+  
+        <Message />
     </div>
   );
 

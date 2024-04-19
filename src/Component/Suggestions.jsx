@@ -46,7 +46,7 @@ export const Suggestions = () => {
            </p> 
             
           <div className='rating'> 
-             <p> <img src ={Star} /> </p>
+             <p id='star'> <img src ={Star}  style={{ maxWidth: '20px', height: 'auto' }}/> </p>
              <p id='review'>{setTime.review}</p>
              <p id="name">{setTime.name}</p> 
              <p id ="price">{setTime.price}</p> 
@@ -76,7 +76,7 @@ export const Suggestions = () => {
             {setTime.location}
           </p>
           <div className='rating'>
-            <p> <img src={Star} alt="Star" /> </p>
+            <p> <img src={Star} alt="Star"style={{ maxWidth: '20px', height: 'auto' }} /> </p>
             <p id='review'>{setTime.review}</p>
             <p id="name">{setTime.name}</p>
             <p id="price">{setTime.price}</p>
@@ -105,7 +105,7 @@ export const Suggestions = () => {
             {setTime.location}
           </p>
           <div className='rating'>
-            <p> <img src={Star} alt="Star" /> </p>
+            <p> <img src={Star} alt="Star"style={{ maxWidth: '20px', height: 'auto' }} /> </p>
             <p id='review'>{setTime.review}</p>
             <p id="name">{setTime.name}</p>
             <p id="price">{setTime.price}</p>
@@ -134,7 +134,7 @@ export const Suggestions = () => {
             {setTime.location}
           </p>
           <div className='rating'>
-            <p> <img src={Star} alt="Star" /> </p>
+            <p> <img src={Star} alt="Star"style={{ maxWidth: '20px', height: 'auto' }} /> </p>
             <p id='review'>{setTime.review}</p>
             <p id="name">{setTime.name}</p>
             <p id="price">{setTime.price}</p>

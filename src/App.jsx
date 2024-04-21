@@ -1,12 +1,14 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Navbar from "./components/navBar/navbar";
+// import FilterPopUp from "./components/navBar/filterPopUp/filterPopUp";
+import Review from "./components/review/review.jsx"
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
 
 const router = createBrowserRouter([
-  {
+   {
     path: "/",
     element: <Home />,
   },
@@ -22,10 +24,24 @@ const router = createBrowserRouter([
     path: "/products/add",
     element: <AddProductPage />,
   },
-]);
+  {
+    path: "/nav",
+    element: <Navbar />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: "/review",
+    element: <Review />,
+    errorElement: <div>404 Not Found</div>
+  },
+])
 
-const App = () => {
-  return <RouterProvider router={router} />;
-};
+function App() {
+  return (
+    <div>
+      <RouterProvider router={router} />
+    </div>
+  );
+}
 
 export default App;

@@ -17,14 +17,16 @@ body {
   flex-direction: column;
 }
 .Label {
-  margin: 10px 0;
+  margin-left: 10px;
   color: #1d2026;
 }
 .content {
   flex: 1;
   border-style: none;
+  outline: none;
   padding: 20px;
   width: 100%;
+  overflow: hidden;
 }
 
 .heading {
@@ -46,6 +48,10 @@ body {
   align-content: center;
   text-align: center;
   width: 100%;
+  cursor: pointer;
+}
+.selected-method {
+  border: 1px solid #23bd33;
 }
 
 .paymentIcon {
@@ -55,6 +61,7 @@ body {
   text-align: center;
   margin-left: 10px;
 }
+
 .ph,
 .date,
 .address,
@@ -94,39 +101,42 @@ body {
   flex: 1px;
   border-style: none;
   padding: 20px;
+  outline: none;
+  overflow: hidden;
 }
 
 label#cvc {
   margin-left: 5px;
 }
-.mobileIcon {
+.mobile {
   position: relative;
-  display: flex;
   align-items: center;
-  width: 106%;
+  width: 95%;
+  img {
+    position: absolute;
+    object-fit: cover;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+  }
+}
+.icon {
+  height: 25px;
+  width: auto;
 }
 
-.icon,
 .line {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-  width: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.line {
-  left: 35px;
-  transform: rotate(90deg);
-  top: 25px;
-  width: 15px;
-  color: #999;
+  transform: rotate(180deg);
+  height: 32px;
+  width: 1px;
+  margin-left: 35px;
+  opacity: 0.5;
 }
 .content::placeholder {
   font-size: 16px;
   color: #8c94a3;
 }
+
 input#mobileNumber {
   padding-left: 60px;
 }
@@ -143,14 +153,19 @@ input[type="checkbox"]:checked {
 }
 .payBtn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
   padding: 20px;
-  padding-bottom: 30px;
   border-radius: 5px;
   background-color: #816fb5;
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 50px;
   border-style: none;
-  align-items: center;
-  justify-content: center;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  &:hover {
+    background-color: #5d3dbd;
+  }
 }

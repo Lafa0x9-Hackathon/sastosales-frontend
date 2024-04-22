@@ -1,11 +1,11 @@
+import Chat from "./Components/Chat/Chat";
 
 function App() {
   return (
     <div>
-        sasto sales
+      <Chat />
     </div>
   );
-
 }
 
-export default App
+export default App;

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-import Login from "./Components/Login";
-import ProductAdded from "./Components/ProductAdded";
-=======
+// import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from "./components/navBar/navbar";
 // import FilterPopUp from "./components/navBar/filterPopUp/filterPopUp";
@@ -10,6 +7,7 @@ import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
+import ProductAdded from "./components/ProductAdded";
 
 const router = createBrowserRouter([
    {
@@ -38,18 +36,17 @@ const router = createBrowserRouter([
     element: <Review />,
     errorElement: <div>404 Not Found</div>
   },
+
+  {
+    path: "/ProductAdded",
+    element: <ProductAdded />,
+  }
 ])
->>>>>>> main
 
 function App() {
   return (
     <div>
-<<<<<<< HEAD
-       {/* <Login/>   login page */}
-       <ProductAdded/> 
-=======
       <RouterProvider router={router} />
->>>>>>> main
     </div>
   );
 }

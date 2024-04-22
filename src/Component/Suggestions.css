@@ -53,7 +53,7 @@
  
   
 .card .image-container:hover .image-content  {
-  transform: translateX(30px); /* Move the content inside the image container to the left */
+  transform: translateX(30px);  
 }
 .card:hover img {
   transform: translateX(-1px);
@@ -183,7 +183,7 @@
   }  
 
   .card:hover .bottom button:hover {
-    color: #fff; /* Change font color to white on hover */
+    color: #fff;  
     background-color: rgb(82, 182, 228);
    transform: scale(1.05);  
   

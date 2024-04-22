@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./components/ProductAdded";
+import ProductAdded from "./components/ProductAdded/ProductAdded.jsx";
 
 const router = createBrowserRouter([
    {
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/ProductAdded",
+    path: "/addProduct",
     element: <ProductAdded />,
   }
 ])

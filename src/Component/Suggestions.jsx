@@ -90,7 +90,9 @@ export const Suggestions = () => {
 
       {/* 3rd card */}
         <div className='card'>
+        <div className="image-container">
         <img src={Cycle} alt="Bike" />
+        </div>
           <p id="camera"><img src={Camera} alt="Camera" /> 1</p>
           <p id="bold">AF-1 White interlocked Sneekers For Women By Jutta Collection</p>
           <p>

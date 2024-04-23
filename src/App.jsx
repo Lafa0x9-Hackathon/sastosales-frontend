@@ -1,3 +1,5 @@
+import React from "react";
+import BasicProductDetails from "./productAdded/ProductDetailCart";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -62,6 +64,11 @@ const router = createBrowserRouter([
   {
     path:'/Suggestions',
     element: <Suggestions />
+  },
+
+  {
+    path: 'BasicProductDetails',
+    element: <BasicProductDetails />
   }
 ])
 

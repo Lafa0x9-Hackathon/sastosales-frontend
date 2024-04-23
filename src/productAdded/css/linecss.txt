@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circle Layout</title>
+<style>
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    position: relative;
+    border-radius: 50%;
+  }
+
+  .large {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+
+  .medium {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+  }
+
+  .small {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+  }
+
+  .circle + .circle {
+    margin-left: 20px; /* Adjust the space between circles */
+  }
+
+  .circle.large::before {
+    content: "1";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+  }
+</style>
+</head>
+<body>
+<div class="circle-container">
+  <div class="circle large"></div>
+  <div class="circle medium"></div>
+  <div class="circle small"></div>
+</div>
+</body>
+</html>

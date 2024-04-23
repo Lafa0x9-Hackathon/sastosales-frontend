@@ -1,19 +1,71 @@
-import CompletePayment from './CompletePayment/CompletePayment'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Confirmation from './CompletePayment/Confirmation';
+// import Login from "./Components/Login";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Navbar from "./components/navBar/navbar";
+// import FilterPopUp from "./components/navBar/filterPopUp/filterPopUp";
+import Review from "./components/review/review.jsx";
+import Home from "./pages/Home";
+import ProductsPage from "./pages/Products";
+import SignUpPage from "./pages/SignUp";
+import AddProductPage from "./pages/AddProduct";
+import ProductAdded from "./components/ProductAdded/ProductAdded.jsx";
+import AdsBy from "./components/Owner/AdsBy";
+import Confirmation from "./components/CompletePayment/Confirmation.jsx";
+import CompletePayment from "./components/CompletePayment/CompletePayment";
+
+const router = createBrowserRouter([
+   {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/products",
+    element: <ProductsPage />,
+  },
+  {
+    path: "/signup",
+    element: <SignUpPage />,
+  },
+  {
+    path: "/products/add",
+    element: <AddProductPage />,
+  },
+  {
+    path: "/nav",
+    element: <Navbar />,
+    errorElement: <div>404 Not Found</div>
+  },
+  {
+    path: "/review",
+    element: <Review />,
+    errorElement: <div>404 Not Found</div>
+  },
+
+  {
+    path: "/addProduct",
+    element: <ProductAdded />,
+  },
+
+  {
+    path: "/AdsBy",
+    element: <AdsBy />
+  },
+
+  {
+    path:'/CompletePayment',
+    element: <CompletePayment />
+  },
+   {
+    path:'/',
+    element: <Confirmation />
+  }
+])
+
 function App() {
   return (
     <div>
-    <Router>
-      <Routes>
-        <Route path='/' element={<CompletePayment/>}/>
-        <Route path='/confirmation' element={<Confirmation/>}/>
-      </Routes>
-    </Router>
+      <RouterProvider router={router} />
     </div>
   );
-
 }
 
-export default App
-
+export default App;

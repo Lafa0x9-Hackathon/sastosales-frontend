@@ -9,7 +9,7 @@ import bar from '../assets/bar-chart.png';
 import star from '../assets/Star.png';
 import vector from '../assets/Vector.png';
 import { Link } from 'react-router-dom';
- import ProductDetails from './ProductDetails';
+//  import ProductDetails from './ProductDetails';
 
 const ShoppingCartData={
   buyer:{

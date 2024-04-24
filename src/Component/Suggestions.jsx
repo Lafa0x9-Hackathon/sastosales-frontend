@@ -24,7 +24,7 @@ export const Suggestions = () => {
    <>
 
    <div className='top'>Suggestions</div> 
-   <div class="container">
+   <div className="container">
     
    <div className='suggest'>
       
@@ -89,7 +89,7 @@ export const Suggestions = () => {
 
 
       {/* 3rd card */}
-        <div className='card'>
+        <div classNameName='card'>
         <img src={Cycle} alt="Bike" />
           <p id="camera"><img src={Camera} alt="Camera" /> 1</p>
           <p id="bold">AF-1 White interlocked Sneekers For Women By Jutta Collection</p>
@@ -104,13 +104,13 @@ export const Suggestions = () => {
             <img src={Location} alt="Location" />
             {setTime.location}
           </p>
-          <div className='rating'>
+          <div classNameName='rating'>
             <p> <img src={Star} alt="Star"style={{ maxWidth: '20px', height: 'auto' }} /> </p>
             <p id='review'>{setTime.review}</p>
             <p id="name">{setTime.name}</p>
             <p id="price">{setTime.price}</p>
           </div>
-          <div className='bottom'>
+          <div classNameName='bottom'>
             <button>Buy Now</button><img src={Cart} alt="Cart" />
           </div>  
         </div>
@@ -118,7 +118,7 @@ export const Suggestions = () => {
 
 
         {/* 4th card */}
-        <div className='card'>
+        <div classNameName='card'>
         <img src={Cycle} alt="Bike" />
           <p id="camera"><img src={Camera} alt="Camera" /> 1</p>
           <p id="bold">AF-1 White interlocked Sneekers For Women By Jutta Collection</p>
@@ -133,13 +133,13 @@ export const Suggestions = () => {
             <img src={Location} alt="Location" />
             {setTime.location}
           </p>
-          <div className='rating'>
+          <div classNameName='rating'>
             <p> <img src={Star} alt="Star"style={{ maxWidth: '20px', height: 'auto' }} /> </p>
             <p id='review'>{setTime.review}</p>
             <p id="name">{setTime.name}</p>
             <p id="price">{setTime.price}</p>
           </div>
-          <div className='bottom'>
+          <div classNameName='bottom'>
             <button>Buy Now</button><img src={Cart} alt="Cart" />
           </div>  
         </div>

@@ -30,8 +30,8 @@ Step 4: Exploring the Project Structure
 
 Once your project is up and running, it’s important to understand its basic structure and main files. Here’s an overview:
 
-src/index.js: This file is the entry point of your React application. It imports the root component and renders it to the DOM.
-src/App.js: This file contains the root component of your application. You can start building your user interface in this component or create additional components and use them here.
+src/index.js: This file is the entry point of your React application. It imports the root component and renders it to the DOM.<br>
+src/App.js: This file contains the root component of your application. You can start building your user interface in this component or create additional components and use them here.<br>
 src/components/: This folder is where you can store your reusable components. You can create subfolders to organize your components as needed.
 
 Step 5: Developing Your Application
@@ -44,7 +44,7 @@ Routing: Set up routing in your application using React Router to create a route
 API Calls: Connect to a backend API and make HTTP calls using libraries like Axios or Fetch.<br>
 Styling: Add styles to your components using CSS, Sass, or inline styling libraries like styled-components.
 
-### Code Contributors
+### Design & Code Contributors
 
 [//]: contributor-faces
 

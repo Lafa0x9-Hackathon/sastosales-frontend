@@ -10,10 +10,10 @@ import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./components/ProductAdded/ProductAdded.jsx";
-import AdsBy from "./components/Owner/AdsBy";
-import Confirmation from "./components/CompletePayment/Confirmation.jsx";
-import CompletePayment from "./components/CompletePayment/CompletePayment";
+import ProductAdded from "./productAdded/ProductDetailCart.jsx";
+//import AdsBy from "./components/Owner/AdsBy";
+//import Confirmation from "./components/CompletePayment/Confirmation.jsx";
+//import CompletePayment from "./components/CompletePayment/CompletePayment";
 import { Suggestions } from "./Component/Suggestions";
 const router = createBrowserRouter([
    {
@@ -48,19 +48,19 @@ const router = createBrowserRouter([
     element: <ProductAdded />,
   },
 
-  {
-    path: "/AdsBy",
-    element: <AdsBy />
-  },
+  // {
+  //   path: "/AdsBy",
+  //   element: <AdsBy />
+  // },
 
-  {
-    path:'/CompletePayment',
-    element: <CompletePayment />
-  },
-   {
-    path:'/',
-    element: <Confirmation />
-  },
+  // {
+  //   path:'/CompletePayment',
+  //   element: <CompletePayment />
+  // },
+  //  {
+  //   path:'/',
+  //   element: <Confirmation />
+  // },
   {
     path:'/Suggestions',
     element: <Suggestions />

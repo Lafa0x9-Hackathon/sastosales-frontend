@@ -52,6 +52,9 @@ For what we're currently working on, check out our pinned repositories!
 
 [//]: contributor-faces
 <a href="https://github.com/Asmita-Nyoupane"><img src="https://avatars.githubusercontent.com/u/74106020?v=4" title="asmita" width="80" height="80"></a>
+<a href="https://github.com/Anirudhchaudhary97"><img src="https://avatars.githubusercontent.com/u/128168439?v=4" title="Anirudhchaudhary97" width="80" height="80"></a>
+<a href="https://github.com/SabinaPaudel58"><img src="https://avatars.githubusercontent.com/u/67220183?v=4" title="SabinaPaudel58" width="80" height="80"></a>
+
 [//]: contributor-faces
 
 ## :notebook_with_decorative_cover: &nbsp;What is it?

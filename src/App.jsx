@@ -1,5 +1,5 @@
 import React from "react";
-import BasicProductDetails from "./productAdded/ProductDetailCart";
+import BasicProductDetails from "./components/productAdded/ProductDetailCart";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -10,11 +10,11 @@ import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./productAdded/ProductDetailCart.jsx";
+import ProductAdded from "./components/productAdded/ProductDetailCart.jsx";
 //import AdsBy from "./components/Owner/AdsBy";
 //import Confirmation from "./components/CompletePayment/Confirmation.jsx";
 //import CompletePayment from "./components/CompletePayment/CompletePayment";
-import { Suggestions } from "./Component/Suggestions";
+import { Suggestions } from "./components/suggestions/Suggestions.jsx";
 const router = createBrowserRouter([
    {
     path: "/",

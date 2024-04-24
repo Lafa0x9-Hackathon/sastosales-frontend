@@ -50,8 +50,9 @@ This project exists thanks to all the people who contribute.
 
 For what we're currently working on, check out our pinned repositories!
 
-[contributors-src]][contributors-href]
-
+[//]: contributor-faces
+<a href="https://github.com/Asmita-Nyoupane"><img src="https://avatars.githubusercontent.com/u/74106020?v=4" title="asmita" width="80" height="80"></a>
+[//]: contributor-faces
 
 ## :notebook_with_decorative_cover: &nbsp;What is it?
 

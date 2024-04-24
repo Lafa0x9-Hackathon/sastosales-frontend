@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 226, 226, 0.8688725490196079) 41%,
+    rgba(213, 199, 255, 1) 100%
+  );
+  border-radius: 15px 15px 0 0;
+
+  padding: 20px;
+}
+h3 {
+  font-family: Inter;
+  font-size: 25;
+  font-weight: 700;
+}

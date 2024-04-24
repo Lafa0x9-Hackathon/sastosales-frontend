@@ -38,19 +38,31 @@ Step 5: Developing Your Application
 
 Now that you have your project set up, you can start developing your application. Here are a few key areas you can explore:
 
-Components: Create reusable components to build the user interface of your application.
-State: Use React state to handle and update data in your application.
-Routing: Set up routing in your application using React Router to create a route-based navigation.
-API Calls: Connect to a backend API and make HTTP calls using libraries like Axios or Fetch.
+Components: Create reusable components to build the user interface of your application.<br>
+State: Use React state to handle and update data in your application.<br>
+Routing: Set up routing in your application using React Router to create a route-based navigation.<br>
+API Calls: Connect to a backend API and make HTTP calls using libraries like Axios or Fetch.<br>
 Styling: Add styles to your components using CSS, Sass, or inline styling libraries like styled-components.
 
 ### Code Contributors
 
 [//]: contributor-faces
 
-<a href="https://github.com/Asmita-Nyoupane"><img src="https://avatars.githubusercontent.com/u/74106020?v=4" title="asmita" width="80" height="80"></a>
-<a href="https://github.com/Anirudhchaudhary97"><img src="https://avatars.githubusercontent.com/u/128168439?v=4" title="Anirudhchaudhary97" width="80" height="80"></a>
-<a href="https://github.com/SabinaPaudel58"><img src="https://avatars.githubusercontent.com/u/67220183?v=4" title="SabinaPaudel58" width="80" height="80"></a>
+<table>
+  <tbody>
+    <tr>
+        <td align="center" valign="top">
+          <a href="https://github.com/Asmita-Nyoupane"><img src="https://avatars.githubusercontent.com/u/74106020?v=4" title="asmita" width="80" height="80"></a>
+          </td>
+        <td align="center" valign="top">
+          <a href="https://github.com/Anirudhchaudhary97"><img src="https://avatars.githubusercontent.com/u/128168439?v=4" title="Anirudhchaudhary97" width="80" height="80"></a>
+        </td>
+        <td align="center" valign="top">
+          <a href="https://github.com/SabinaPaudel58"><img src="https://avatars.githubusercontent.com/u/67220183?v=4" title="SabinaPaudel58" width="80" height="80"></a>
+        </td>
+    </tr>
+  </tbody>
+</table>
 
 [//]: contributor-faces
 

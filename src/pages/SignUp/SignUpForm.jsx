@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-import { Input, PhoneNumberInput, PasswordInput } from "../../components/Input";
-import Label from "../../components/Label";
-import Button from "./../../components/Button";
-import FormHeader from "../../components/FormHeader";
+import { Input, PhoneNumberInput, PasswordInput } from "../../Components/Input";
+import Label from "../../Components/Label";
+import Button from "../../Components/Button";
+import FormHeader from "../../Components/FormHeader";
 
 const SignUpForm = () => {
   return (

@@ -1,4 +1,4 @@
-import { Cart, Search, Tick, Timer } from './../Icons';
+import { Cart, Search, Tick, Timer } from '../Icons';
 
 const FormHeader = () => {
   return (

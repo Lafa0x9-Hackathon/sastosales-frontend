@@ -35,7 +35,7 @@ import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
 import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
-import { Suggestions } from "./Component/Suggestions";
+import Suggestions  from "./Component/Suggestions";
 const router = createBrowserRouter([
    {
     path: "/",
@@ -87,11 +87,11 @@ const router = createBrowserRouter([
     element: <Suggestions />
   },
 
-
   {
-    path: 'BasicProductDetails',
+    path: '/BasicProductDetails',
     element: <BasicProductDetails />
-  }
+  },
+
 
  
 ])

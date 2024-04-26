@@ -1,10 +1,5 @@
 
-
-
-
-// export default App
 import React from "react";
-import BasicProductDetails from "./productAdded/ProductDetailCart";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -19,7 +14,9 @@ import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
 import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
-import Suggestions  from "./Component/Suggestions";
+// import Suggestions  from "./Components/suggestions/Suggestions";
+import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
+
 const router = createBrowserRouter([
    {
     path: "/",
@@ -66,10 +63,10 @@ const router = createBrowserRouter([
     path:'/',
     element: <Confirmation />
   },
-  {
-    path:'/Suggestions',
-    element: <Suggestions />
-  },
+  // {
+  //   path:'/Suggestions',
+  //   element: <Suggestions />
+  // },
 
   {
     path: '/BasicProductDetails',

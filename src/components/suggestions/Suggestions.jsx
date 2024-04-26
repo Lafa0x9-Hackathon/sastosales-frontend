@@ -1,12 +1,12 @@
 import React from 'react'
  import './Suggestions.css'
- import Bike from '../assets/bike.png'
- import Camera from '../assets/camera.png'
- import Cycle from '../assets/cycle.png'
- import Cart from '../assets/cart.png'
- import Timer from '../assets/timer.png'
- import Location from '../assets/location.png'
-import Star from '../assets/Star.png'
+ import Bike from '../../assets/bike.png'
+ import Camera from '../../assets/camera.png'
+ import Cycle from '../../assets/cycle.png'
+ import Cart from '../../assets/cart.png'
+ import Timer from '../../assets/timer.png'
+ import Location from '../../assets/location.png'
+import Star from '../../assets/Star.png'
 
 
  const setTime ={

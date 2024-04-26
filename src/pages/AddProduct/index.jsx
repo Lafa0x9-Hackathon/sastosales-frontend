@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Wrapper from "../../Components/ContainerWrapper";
+import Wrapper from "../../Components/ContainerWrapper/index";
 import { BasicProductDetailForm } from "./ProductForm/BasicForm";
 import Steps from "./Steps";
 import Button from "../../Components/Button";

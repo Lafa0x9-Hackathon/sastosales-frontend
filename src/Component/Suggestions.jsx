@@ -19,7 +19,7 @@ import Star from '../assets/Star.png'
 
  }
    
-export const Suggestions = () => {
+const Suggestions = () => {
   return (
    <>
 
@@ -148,3 +148,5 @@ export const Suggestions = () => {
 </>
   )
 }
+
+export default Suggestions;

@@ -1,4 +1,4 @@
-import Wrapper from "../../components/ContainerWrapper";
+import Wrapper from "../../Components/ContainerWrapper";
 import SignUpForm from "./SignUpForm";
 
 const SignUpPage = () => {

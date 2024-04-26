@@ -1,20 +1,22 @@
+
 import React from "react";
-import BasicProductDetails from "./components/productAdded/ProductDetailCart";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Navbar from "./components/navBar/navbar";
-// import FilterPopUp from "./components/navBar/filterPopUp/filterPopUp";
-import Review from "./components/review/review.jsx";
+import Navbar from "./Components/navBar/navbar.jsx";
+// import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
+import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./components/productAdded/ProductDetailCart.jsx";
-//import AdsBy from "./components/Owner/AdsBy";
-//import Confirmation from "./components/CompletePayment/Confirmation.jsx";
-//import CompletePayment from "./components/CompletePayment/CompletePayment";
-import { Suggestions } from "./components/suggestions/Suggestions.jsx";
+import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
+import AdsBy from "./Components/Owner/AdsBy.jsx";
+import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
+import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
+// import Suggestions  from "./Components/suggestions/Suggestions";
+import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
+
 const router = createBrowserRouter([
    {
     path: "/",
@@ -48,28 +50,31 @@ const router = createBrowserRouter([
     element: <ProductAdded />,
   },
 
-  // {
-  //   path: "/AdsBy",
-  //   element: <AdsBy />
-  // },
-
-  // {
-  //   path:'/CompletePayment',
-  //   element: <CompletePayment />
-  // },
-  //  {
-  //   path:'/',
-  //   element: <Confirmation />
-  // },
   {
-    path:'/Suggestions',
-    element: <Suggestions />
+    path: "/AdsBy",
+    element: <AdsBy />
   },
 
   {
-    path: 'BasicProductDetails',
+    path:'/CompletePayment',
+    element: <CompletePayment />
+  },
+   {
+    path:'/',
+    element: <Confirmation />
+  },
+  // {
+  //   path:'/Suggestions',
+  //   element: <Suggestions />
+  // },
+
+  {
+    path: '/BasicProductDetails',
     element: <BasicProductDetails />
-  }
+  },
+
+
+ 
 ])
 
 function App() {

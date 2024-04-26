@@ -1,5 +1,5 @@
-import Wrapper from "../../../components/ContainerWrapper";
-import { Location } from "../../../components/Icons";
+import Wrapper from "../../../Components/ContainerWrapper";
+import { Location } from "../../../Components/Icons";
 import Cities from "./Cities";
 
 const Place = () => {

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Wrapper from "../../components/ContainerWrapper";
+import Wrapper from "../../Components/ContainerWrapper";
 import { BasicProductDetailForm } from "./ProductForm/BasicForm";
 import Steps from "./Steps";
-import Button from "./../../components/Button";
+import Button from "../../Components/Button";
 
 const AddProductPage = () => {
   const [step, setStep] = useState(0);

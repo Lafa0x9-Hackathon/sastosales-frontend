@@ -1,5 +1,5 @@
-import Button from "./../Button";
-import { Camera, Cart, Location, Timer, Star } from "./../Icons";
+import Button from "../Button";
+import { Camera, Cart, Location, Timer, Star } from "../Icons";
 
 const ProductCard = ({ title, date, label, address, rating, price, image }) => {
   return (

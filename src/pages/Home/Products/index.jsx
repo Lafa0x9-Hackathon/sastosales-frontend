@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import ProductCard from "../../../components/ProductCard";
+import ProductCard from "../../../Components/ProductCard";
 import { DUMMPY_PRODUCTS } from "../../../utils/constants";
-import Wrapper from "../../../components/ContainerWrapper";
-import Pagination from "../../../components/Pagination";
+import Wrapper from "../../../Components/ContainerWrapper";
+import Pagination from "../../../Components/Pagination";
 
 const Products = () => {
   const [currentPage, setCurrentPage] = useState(0);

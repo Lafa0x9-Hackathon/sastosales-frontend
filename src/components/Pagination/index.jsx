@@ -1,5 +1,5 @@
 import ReactPaginate from "react-paginate";
-import { ArrowLeft, ArrowRight } from "../../components/Icons";
+import { ArrowLeft, ArrowRight } from "../Icons";
 import { cn } from "../../utils/cn";
 
 const PaginationButton = ({ children, className }) => (

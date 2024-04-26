@@ -1,14 +1,14 @@
 import ProductFormHeader from "./ProductFormHeader";
 import FormItem from "./FormItem";
-import Label from "./../../../components/Label";
-import { Input } from "../../../components/Input";
+import Label from "../../../Components/Label";
+import { Input } from "../../../Components/Input";
 import {
   Select,
   SelectTrigger,
   SelectItem,
   SelectContent,
   SelectValue,
-} from "../../../components/Select";
+} from "../../../Components/Select";
 import { cities } from "./../../../utils/constants";
 
 export const BasicProductDetailForm = () => {

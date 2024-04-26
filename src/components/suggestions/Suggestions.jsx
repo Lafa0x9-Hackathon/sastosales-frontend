@@ -24,7 +24,7 @@ export const Suggestions = () => {
    <>
 
    <div className='top'>Suggestions</div> 
-   <div class="container">
+   <div className="container">
     
    <div className='suggest'>
       

@@ -1,14 +1,14 @@
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
 
-import Wrapper from "../../components/ContainerWrapper";
-import ProductCard from "../../components/ProductCard";
+import Wrapper from "../../Components/ContainerWrapper";
+import ProductCard from "../../Components/ProductCard";
 import Ads from "./Ads";
 import {
   BreadcrumbItem,
   BreadcrumbList,
   BreadcrumbSeperator,
-} from "./../../components/Breadcrumb";
+} from "../../Components/Breadcrumb";
 import { DUMMPY_PRODUCTS } from "../../utils/constants";
 
 const Products = () => {

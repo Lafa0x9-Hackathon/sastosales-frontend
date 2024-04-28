@@ -49,29 +49,106 @@ function CategoryPage() {
 
 
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
 
 
  
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
   
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
  
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
-  
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
  
     <div className="car">
-    
+     <div className="Car-header"><img src={car} alt="" className="cariconimg"/> <h3>Automobiles </h3>
+     </div>
+   
+      <ul className="car-list">
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+      <li className="car-list-item">Mobile</li>
+
+  </ul>
+ 
+ 
       </div>
   </div>
 

@@ -3,7 +3,7 @@ import React from "react";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Navbar from "./Components/navBar/navbar.jsx";
+import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
 // import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";

@@ -151,3 +151,40 @@ body {
 .cat-list li a .category-name{
     margin-left: 10px;
 }
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: 57px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    transform: translate(-39%, -45%);
+}
+
+.content h1 {
+    font-weight: 400;
+    font-size: 65px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+}
+
+.content .btn {
+    padding: 11px 25px 10px 20px;
+    background-color: #292F36;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 18px;
+}

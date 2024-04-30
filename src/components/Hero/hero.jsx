@@ -64,10 +64,6 @@ const categories = [
   { name: 'Jobs', icon:  <JobsIcon /> },
   { name: 'Services', icon:  <ServicesIcon /> },
   { name: 'Services', icon:  <Local__Events />},
-
- 
-
-  // Add more categories here if needed
 ];
 
 const Hero = () => {
@@ -91,13 +87,20 @@ const Hero = () => {
               </ul>
             </div>
             <div className='right__block'>
-                
+                    <div className="banner">
+                      <img className="banner" src="./images/banner.png" alt="banner" width="1201" height="758" />
+                      <div className="content">
+                        <h1>Let Your Home Be Unique</h1>
+                        <p>There are many variations of the passages of lorem Ipsum fromavailable, majority.</p>
+                        <button className="btn" type="button">Get Started</button>
+                      </div>
+                    </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Hero;

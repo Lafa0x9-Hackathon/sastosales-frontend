@@ -8,7 +8,7 @@ import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
-import SignUpPage from "./pages/SignUp";
+import SignUpPage from "./pages/SignUp/index";
 import AddProductPage from "./pages/AddProduct";
 import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
@@ -16,11 +16,15 @@ import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
 import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
-
+import Hero from "./Components/Hero/hero"
 const router = createBrowserRouter([
    {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/hero",
+    element: <Hero />,
   },
   {
     path: "/products",

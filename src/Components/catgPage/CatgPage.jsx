@@ -180,22 +180,26 @@ function CategoryPage() {
      </div>
 
       <ul className="sub-category-list">
-      <li className="sub-category-list-item">Agriculture-Environment</li>
-      <li className="sub-category-list-item">Assistantship-Secretariat-Helpdesk</li>
-      <li className="sub-category-list-item">Automotive-Mechanic</li>
-      <li className="sub-category-list-item">BTP-Construction-Building</li>
-      <li className="sub-category-list-item">Trade-Business Services</li>
-      <li className="sub-category-list-item">Commericals-Sale Jobs</li>
-      <li className="sub-category-list-item">Accounting-Mangement-Finmance</li>
-      <li className="sub-category-list-item">Steering-Manger</li>
-      <li className="sub-category-list-item">Aesthetics-Hair-Beauty</li>
-      <li className="sub-category-list-item">Public ervice Jobs</li>
-      <li className="sub-category-list-item">Real Estate Jobs</li>
-      <li className="sub-category-list-item">Independent-Freelance-Telecommuting</li>
-      <li className="sub-category-list-item">Computer-Internet</li>
-      <li className="sub-category-list-item">Telecommunication</li>
-      <li className="sub-category-list-item">Industry,Production & engineering</li>
-      <li className="sub-category-list-item">Marketing-COmmunication</li>
+      <li className="sub-category-list-item">Accessories & supplies for Electronics</li>
+      <li className="sub-category-list-item">Laptops & Computer</li>
+      <li className="sub-category-list-item">TV & DVD Equipment</li>
+      <li className="sub-category-list-item">MAudio & Music Equipment</li>
+      <li className="sub-category-list-item">Computer Accessories</li>
+      <li className="sub-category-list-item">Computer Hardware</li>
+      <li className="sub-category-list-item">Computer Hmonitors</li>
+      <li className="sub-category-list-item">Headphones</li>
+      <li className="sub-category-list-item">Networking Products</li>
+      <li className="sub-category-list-item">Photos & Video Cameras</li>
+      <li className="sub-category-list-item">Printers & Scanners</li>
+      <li className="sub-category-list-item">Security & Survillance</li>
+      <li className="sub-category-list-item">Software</li>
+      <li className="sub-category-list-item">Video Games</li>
+      <li className="sub-category-list-item">Game Console</li>
+      <li className="sub-category-list-item">Mobile Phones</li>
+      <li className="sub-category-list-item">Accessories for Mobile Phones & Tablets</li>
+      <li className="sub-category-list-item">Smart Watches & Trackers</li>
+      <li className="sub-category-list-item">Tablets</li>
+
   </ul>
 
 

@@ -4,18 +4,17 @@ import React from "react";
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
-// import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
+import ProductAdded from "./Components/productAdded/ProductDetailCart.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
 import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
-import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
+import BasicProductDetails from "./Components/productAdded/compontnts/ProductDetailCartBody";
 
 const router = createBrowserRouter([
    {

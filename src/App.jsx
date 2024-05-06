@@ -16,7 +16,7 @@ import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
 import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
-
+import Category from "./Components/addCategory/catgPage.jsx";
 const router = createBrowserRouter([
    {
     path: "/",
@@ -63,10 +63,11 @@ const router = createBrowserRouter([
     path:'/',
     element: <Confirmation />
   },
-  // {
-  //   path:'/Suggestions',
-  //   element: <Suggestions />
-  // },
+
+  {
+    path:'/Category',
+    element: <Category />
+  },
 
   {
     path: '/BasicProductDetails',

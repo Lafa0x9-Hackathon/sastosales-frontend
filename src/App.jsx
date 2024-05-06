@@ -3,6 +3,7 @@ import React from "react";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
 // import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
@@ -17,6 +18,7 @@ import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
 import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
 import Hero from "./Components/Hero/hero"
+import Suggestions from "./Components/suggestions/Suggestions.jsx"
 const router = createBrowserRouter([
    {
     path: "/",
@@ -43,6 +45,12 @@ const router = createBrowserRouter([
     element: <Navbar />,
     errorElement: <div>404 Not Found</div>
   },
+ 
+  {
+    path: "/products/add",
+    element: <AddProductPage />,
+  },
+
   {
     path: "/review",
     element: <Review />,
@@ -67,10 +75,10 @@ const router = createBrowserRouter([
     path:'/',
     element: <Confirmation />
   },
-  // {
-  //   path:'/Suggestions',
-  //   element: <Suggestions />
-  // },
+  {
+    path:'/Suggestions',
+    element: <Suggestions />
+  },
 
   {
     path: '/BasicProductDetails',

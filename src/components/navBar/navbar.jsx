@@ -7,7 +7,7 @@ import add_icon from './icons/AddProd.png'
 import cart_icon from './icons/ShoppingCartSimple.png'
 import down_arrow_icon from './icons/ChevronDown.png'
 import { useState } from 'react'
-
+import { Link } from 'react-router-dom';
 function Navbar() {
     const [click, setClick] = useState(false)
 
@@ -38,10 +38,10 @@ function Navbar() {
                 </div>
                 
                 <img className='cart-icon' src={cart_icon} alt="cart_icon" />
-                <div className="login-button">
+                 <Link to="/login" className="login-button"> 
                     <p>Login</p>
                     <img src={down_arrow_icon} alt="" />
-                </div>
+                </Link>
                 <div className="signin-button">
                     <p>Sign-in</p>
                     <img src={down_arrow_icon} alt="" />

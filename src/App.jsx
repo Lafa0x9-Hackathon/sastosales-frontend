@@ -3,12 +3,13 @@ import React from "react";
 
 // import Login from "./Components/Login";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
 // import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
-import SignUpPage from "./pages/SignUp";
+import SignUpPage from "./pages/SignUp/index";
 import AddProductPage from "./pages/AddProduct";
 import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
@@ -17,10 +18,16 @@ import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
 import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
 import Category from "./Components/addCategory/catgPage.jsx";
+import Hero from "./Components/Hero/hero"
+import Suggestions from "./Components/suggestions/Suggestions.jsx"
 const router = createBrowserRouter([
    {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/hero",
+    element: <Hero />,
   },
   {
     path: "/products",
@@ -39,6 +46,12 @@ const router = createBrowserRouter([
     element: <Navbar />,
     errorElement: <div>404 Not Found</div>
   },
+ 
+  {
+    path: "/products/add",
+    element: <AddProductPage />,
+  },
+
   {
     path: "/review",
     element: <Review />,
@@ -67,6 +80,11 @@ const router = createBrowserRouter([
   {
     path:'/Category',
     element: <Category />
+  },
+
+  {
+    path:'/Suggestions',
+    element: <Suggestions />
   },
 
   {

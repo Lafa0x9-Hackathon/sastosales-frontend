@@ -18,8 +18,9 @@ import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
 import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
 import Category from "./Components/addCategory/catgPage.jsx";
-import Hero from "./Components/Hero/hero"
-import Suggestions from "./Components/suggestions/Suggestions.jsx"
+import Hero from "./Components/Hero/hero";
+import Suggestions from "./Components/suggestions/Suggestions.jsx";
+import Login from "./Components/login/Login.jsx";
 const router = createBrowserRouter([
    {
     path: "/",
@@ -44,6 +45,12 @@ const router = createBrowserRouter([
   {
     path: "/nav",
     element: <Navbar />,
+    errorElement: <div>404 Not Found</div>
+  },
+ 
+  {
+    path: "/login",
+    element: <Login />,
     errorElement: <div>404 Not Found</div>
   },
  

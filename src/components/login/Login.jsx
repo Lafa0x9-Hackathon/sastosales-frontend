@@ -8,6 +8,8 @@ const Login = () => {
   const [value, setValue] = useState();
   return (
     <main>
+    <layout>
+    </layout>
       <div className="container">
         <section className="text-container">
           <div>
@@ -39,7 +41,7 @@ const Login = () => {
                 <div>
                   <p>
                     Don't have account yet?
-                    <span>
+                    <span className="sign_in">
                       <a href="#">Sign in</a>
                     </span>
                   </p>

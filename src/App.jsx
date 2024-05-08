@@ -5,22 +5,22 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from "./Components/navBar/filterPopUp/filterPopUp";
-// import FilterPopUp from "./Components/navBar/filterPopUp/filterPopUp";
 import Review from "./Components/review/review.jsx";
 import Home from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import SignUpPage from "./pages/SignUp/index";
 import AddProductPage from "./pages/AddProduct";
-import ProductAdded from "./Components/ProductAdded/ProductAdded.jsx";
+// import ProductAdded from "./Components/productAdded/ProductDetailCart.jsx";
 import AdsBy from "./Components/Owner/AdsBy.jsx";
 import Confirmation from "./Components/CompletePayment/Confirmation.jsx";
 import CompletePayment from "./Components/CompletePayment/CompletePayment.jsx";
 // import Suggestions  from "./Components/suggestions/Suggestions";
-import BasicProductDetails from "./Components/ProductAdded/compontnts/ProductDetailCartBody";
 import Category from "./Components/addCategory/catgPage.jsx";
 import Hero from "./Components/Hero/hero";
 import Suggestions from "./Components/suggestions/Suggestions.jsx";
 import Login from "./Components/login/Login.jsx";
+// import BasicProductDetails from "./Components/productAdded/compontnts/ProductDetailCartBody";
+
 const router = createBrowserRouter([
    {
     path: "/",
@@ -65,10 +65,10 @@ const router = createBrowserRouter([
     errorElement: <div>404 Not Found</div>
   },
 
-  {
-    path: "/addProduct",
-    element: <ProductAdded />,
-  },
+  // {
+  //   path: "/addProduct",
+  //   element: <ProductAdded />,
+  // },
 
   {
     path: "/AdsBy",
@@ -94,10 +94,10 @@ const router = createBrowserRouter([
     element: <Suggestions />
   },
 
-  {
-    path: '/BasicProductDetails',
-    element: <BasicProductDetails />
-  },
+  // {
+  //   path: '/BasicProductDetails',
+  //   element: <BasicProductDetails />
+  // },
 
 
  
